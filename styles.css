@@ -6,6 +6,8 @@
 
 body {
   margin: 60px auto;
+  padding: 15px;
+  display: block;
 }
 
 h1,
