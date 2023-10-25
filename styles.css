@@ -1,0 +1,24 @@
+body {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 30px;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  border: 2px inset;
+}
+
+h1 {
+  margin: 10px 10px;
+  padding: 10px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
