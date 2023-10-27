@@ -1,9 +1,21 @@
 .container {
+  margin: 25px 10px;
+  padding: 15px 15px;
   display: block;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(239, 87, 87, 0.74) 0%,
+    rgba(245, 123, 13, 0.74) 90.2%
+  );
+  border: 0.5rem outset grey;
+  border-radius: 30px;
 }
-
-a {
-  text-decoration: none;
+body {
+  background: radial-gradient(
+    circle at -1.7% -2.7%,
+    rgb(250, 138, 138) 0%,
+    rgb(198, 124, 204) 90%
+  );
 }
 
 .logo {
@@ -32,6 +44,7 @@ h4 {
 
 .shecodes-link {
   text-align: center;
+  text-decoration: none;
 }
 
 .profile-pic {
@@ -57,6 +70,8 @@ li {
 
 .spacer {
   margin-left: 5px;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .world-clock-pic {
@@ -78,6 +93,7 @@ section {
 .border-link {
   margin: 10px;
   padding: 10px 15px;
+  text-decoration: none;
 }
 
 footer {
