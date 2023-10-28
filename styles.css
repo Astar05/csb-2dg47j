@@ -1,17 +1,10 @@
 .container {
   margin: 25px 10px;
   padding: 15px 15px;
-  display: block;
+  display: flex-box;
   background: #f6e4ad;
   border: 0.5rem outset grey;
   border-radius: 30px;
-}
-body {
-  background: radial-gradient(
-    circle at -1.7% -2.7%,
-    rgb(250, 138, 138) 0%,
-    rgb(198, 124, 204) 90%
-  );
 }
 
 .logo {
@@ -30,6 +23,19 @@ h2,
 h3,
 h4 {
   text-align: center;
+}
+
+@media (max-width: 950px) {
+  .skills li {
+    display: inline-block;
+    margin: 3px;
+  }
+
+  .container {
+    margin: 5px;
+    padding: 5px;
+    max-width: 100%;
+  }
 }
 
 .btn {

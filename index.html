@@ -36,9 +36,12 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container-fluid">
-        <a class="logo navbar-brand rounded-circle" href="index.html"> NH</a>
+   
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+    >
+    <div class="container-fluid">
+     <a class="logo navbar-brand rounded-circle" href="index.html"> NH</a>
 
         <button
           class="navbar-toggler"
@@ -73,14 +76,16 @@
           </ul>
         </div>
       </div>
+      </div>
     </nav>
+       
     <div class="container">
       <h1>👩🏻‍💻 Nhu Huynh</h1>
-      <h3>🇺🇸 Aspiring Front-end Developer based in MA</h3>
+      <h3>🇺🇸 Aspiring Front-end Developer <span class="d-none d-lg-block"> in MA</span></h3>
       <hr />
-      <div class="d-flex justify-content-center">
-        <div class="col">
-          <h2>About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="mb-3">About Me</h2>
           <p>
             Part-time student at SheCodes - Aspiring to become a Front-End
             Developer. Decided to persue a career change on June 2023 and it led
@@ -88,9 +93,9 @@
             peers and loved ones, it became a revelation to me how learning code
             is fun, challenging and consistent.
           </p>
-          <br />
-          <div class="d-flex justify-content-center">
-            <a href="#" target="_blank" class="shecodes-link"
+
+          <div class="d-flex mt-5 justify-content-center">
+            <a href="https://www.shecodes.io/graduates/85110-nhu-huynh" target="_blank" class="shecodes-link"
               >SheCodes Student Profile and Achievements</a
             >
           </div>
@@ -99,14 +104,14 @@
           <img
             src="images/profile.png"
             alt="profile pic"
-            class="profile-pic object-fit-fill border rounded"
+            class="profile-pic object-fit-fill border rounded img-fluid d-none d-md-block d-lg-block"
           />
         </div>
       </div>
       <hr />
       <h2>Skills</h2>
       <br />
-      <div class="d-flex justify-content-center">
+      <div class="skills d-flex justify-content-center">
         <ul>
           <li><i class="fa-brands fa-html5 fa-2xl"></i> HTML</li>
           <li><i class="fa-brands fa-css3-alt fa-2xl"></i> CSS</li>
@@ -124,34 +129,12 @@
         <a href="portfolio.html" target="_blank" class="spacer"> here </a>
       </p>
       <div class="row d-flex justify-content-center">
-        <div class="col-6">
-          <h3>World Clock</h3>
-          <img
-            src="images/world-clock.PNG"
-            alt="world clock app"
-            class="world-clock-pic"
-          />
-          <section class="d-flex justify-content-center">
-            <a
-              href="https://lively-buttercream-6fe91d.netlify.app/"
-              target="_blank"
-              class="border-link btn btn-primary"
-              >Launch Project</a
-            >
-            <a
-              href="https://github.com/Astar05/World-Clock"
-              target="_blank"
-              class="border-link btn btn-primary"
-              >Source Code</a
-            >
-          </section>
-        </div>
-        <div class="col-6">
-          <h3>Weather App</h3>
+        <div class="col-mb-6">
+                    <h3>Weather App</h3>
           <img
             src="images/weather-app.PNG"
             alt="weather app"
-            class="weather-app-pic"
+            class="weather-app-pic img-fluid"
           />
           <section class="d-flex justify-content-center">
             <a
@@ -162,6 +145,28 @@
             >
             <a
               href="https://github.com/Astar05/Weather-App"
+              target="_blank"
+              class="border-link btn btn-primary"
+              >Source Code</a
+            >
+          </section>
+        </div>
+            <div class="col-mb-6">
+   <h3>World Clock</h3>
+          <img
+            src="images/world-clock.PNG"
+            alt="world clock app"
+            class="world-clock-pic img-fluid"
+          />
+          <section class="d-flex justify-content-center">
+            <a
+              href="https://lively-buttercream-6fe91d.netlify.app/"
+              target="_blank"
+              class="border-link btn btn-primary"
+              >Launch Project</a
+            >
+            <a
+              href="https://github.com/Astar05/World-Clock"
               target="_blank"
               class="border-link btn btn-primary"
               >Source Code</a
