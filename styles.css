@@ -23,6 +23,11 @@ h2,
 h3,
 h4 {
   text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+p {
+  font-family: "Open Sans";
 }
 
 @media (max-width: 950px) {
