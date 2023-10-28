@@ -2,11 +2,7 @@
   margin: 25px 10px;
   padding: 15px 15px;
   display: block;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgba(239, 87, 87, 0.74) 0%,
-    rgba(245, 123, 13, 0.74) 90.2%
-  );
+  background: #f6e4ad;
   border: 0.5rem outset grey;
   border-radius: 30px;
 }
