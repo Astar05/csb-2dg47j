@@ -55,6 +55,14 @@ p {
   font-family: "Open Sans";
 }
 
+.ai-symbol {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .about-details {
   font-size: small;
 }
