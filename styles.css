@@ -169,6 +169,18 @@ li {
   width: 425px;
 }
 
+.travel-pic {
+  width: 400px;
+}
+
+.dictionary-pic {
+  width: 425px;
+}
+
+.haiku-pic {
+  width: 450px;
+}
+
 .ecoquiz-pic {
   width: 350px;
 }
